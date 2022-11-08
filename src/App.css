@@ -1,0 +1,90 @@
+.App{
+  width: 300px;
+  margin: 0 auto;
+  height: 100vh;
+  font-family: sans-serif;
+}
+.bal{
+  margin: 12px 0;
+}
+
+.bal h2{
+  text-align: center;
+}
+.balAmount{
+  text-align: end;
+  margin: 12px 0;
+}
+
+.balAmount p{
+  margin-bottom: 6px;
+}
+
+.balAmount h3{
+  font-weight: 100;
+  font-size: 1.8em;
+}
+.income-outcome{
+  background: white;
+  display: flex;
+  justify-content: space-between;
+}
+.line{
+  height: 1px;
+  background: grey;
+  margin: 16px 0;
+}
+.income-outcome p{
+  font-size: 1.3em;
+  text-align: center;
+  margin-top: 6px;
+  color: white;
+   
+}
+.income , .outcome{
+  background: green;
+  color: white;
+  flex: 1;
+  padding: 12px 0;
+}
+.outcome{
+  background-color: red;
+}
+.income-outcome h2{
+  font-weight: 100;
+   text-transform: uppercase;
+   font-size: 0.9em;
+   text-align: center;
+}
+
+.movement{
+  background: white;
+  display: flex;
+  justify-content: space-between;
+  padding: 7px 4px;
+  margin: 4px 0;
+}
+
+
+input{
+  margin: 8px 0;
+  width: 100%;
+  padding: 8px;
+}
+button{
+  width: 100%;
+  padding: 8px;
+  background: green;
+  color: white;
+  border: none;
+}
+
+.hist{
+  font-weight: 100;
+  margin: 12px 0;
+}
+
+.error{
+  color: red;
+  text-align: center;
+}
